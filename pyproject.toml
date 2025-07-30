@@ -1,0 +1,23 @@
+[project]
+name = "hashgraph-python-agent-kit"
+version = "0.1.0"
+description = "LangChain-compatible Hashgraph Agent Kit in Python"
+authors = [{name = "OutsideTheTree"}]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "hiero-sdk-python>=0.1.0",
+    "python-dotenv>=0.19.0",
+    "dataclasses; python_version < '3.7'"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-mock>=3.0",
+    "mypy>=0.990"
+]
+
+[tool.mypy]
+strict = true 

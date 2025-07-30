@@ -1,0 +1,7 @@
+# Demo-specific requirements
+openai>=1.0.0
+python-dotenv>=0.19.0
+
+# Parent package requirements
+pytest>=7.0
+mypy>=0.990 
